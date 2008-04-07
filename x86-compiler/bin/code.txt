@@ -1,0 +1,42 @@
+int string_print(string);
+int print_num(int);
+int string_length(string);
+
+int add(int a, int b){
+	return a + b;
+}
+
+//main function: the entry point to the program
+global int main(){
+	a = "Hello " + "Human!\n";
+	b = a + "Haha\n";
+	string_print(b);
+	print_num(2.5 * 2);
+
+	if((3 > 4 || 8 >= 90) || (2 > 1 && 4 == 4)){
+		print_num(1);
+	}
+
+	$r = -1;
+	t = -5;
+	q = $r + t;
+	print_num(r);
+	print_num(t);
+	print_num(q);
+
+	n = int(60.8);
+	print_num(n);
+
+	i = 0;
+	print_num(i++);
+	print_num(i++);
+	print_num(++i);
+
+	for(i = 0; i < 5; i = i + 1){
+		print_num(i);
+		if(i == 3){
+			string_print("\t\\This ends here!!!\n");
+			continue;
+		}
+	}
+}

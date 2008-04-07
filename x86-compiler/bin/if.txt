@@ -1,0 +1,69 @@
+Add basic conditions as +0
+Basic AND Basic = Negate both
+Basic OR Basic  = Negate second
+Complex AND Basic = Move basic to start, negate basic
+Complex OR Basic = Move basic to start
+Complex AND Complex = Add + mark between them
+Complex OR Complex  = Add - mark between them
+Adding + marks = change all prior +0 marked comparisons to this mark, ensure comparison before mark is negative
+Adding - marks = same but with -0 marked comparisons, ensure comparison before mark is positive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

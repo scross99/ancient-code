@@ -1,0 +1,17 @@
+//8086 register codes
+#define EAX 0
+#define EDX 1
+#define EBX 2
+#define ECX 3
+#define ESI 4
+#define EDI 5
+#define EBP 6
+#define ESP 7
+#define ST0 10
+#define ST1 11
+#define ST2 12
+#define ST3 13
+#define ST4 14
+#define ST5 15
+#define ST6 16
+#define ST7 17
